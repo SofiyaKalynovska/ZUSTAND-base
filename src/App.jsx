@@ -1,12 +1,10 @@
 import "./App.css";
-import Column from "./components/Column";
-
+import People from "./components/People.jsx";
 function App() {
   return (
     <div className="App">
-      <Column state={"PLANNED"} />
-      <Column state={"ONGOING"} />
-      <Column state={"DONE"} />
+      <p>People</p>
+      <People />
     </div>
   );
 }
